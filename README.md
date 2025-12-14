@@ -5,8 +5,8 @@
 /query_suggest : 入力提案のためのAPI
 
 ## LLMとインフラ
-- LLMはQwen3-32Bを使う
-- NVIDIA H100 240GB　によって動作。
+- LLM : [Qwen3-32B](https://huggingface.co/Qwen/Qwen3-32B)
+- GPU : NVIDIA H100 VRAM 240GB
 
 ## 依存関係
 - Poetry=2.2.1
