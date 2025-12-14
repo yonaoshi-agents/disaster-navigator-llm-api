@@ -1,0 +1,22 @@
+[project]
+name = "ubuntu"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "None" }
+]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+vllm = "^0.12.0"
+transformers = "^4.57.3"
+accelerate = "^1.12.0"
+fastapi = "^0.124.4"
+uvicorn = "^0.38.0"
+jinja2 = "^3.1.6"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
