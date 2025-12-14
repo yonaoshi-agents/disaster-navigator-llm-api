@@ -12,7 +12,7 @@
 - Poetry=2.2.1
 - CUDA toolkit=12.8
 
-##　起動方法
+## 起動方法
 ```
 poetry install
 poetry run uvicorn main:app --host 0.0.0.0 --port 8000
